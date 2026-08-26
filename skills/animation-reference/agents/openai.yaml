@@ -1,4 +1,4 @@
 interface:
   display_name: "Animation Reference"
-  short_description: "Find and specify web and UI animation ideas"
-  default_prompt: "Use $animation-reference to identify this animation idea and turn it into an implementation-ready motion spec."
+  short_description: "Identify effects and advise project animations"
+  default_prompt: "Use $animation-reference to inspect this project and recommend component-level animations that fit its current stack and visual system."

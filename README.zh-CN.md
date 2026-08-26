@@ -2,13 +2,14 @@
 
 [English](README.md)
 
-一个聚焦动画参考的资源仓库，并附带可安装的 Codex Skill。它专门解决这种问题：**“我脑海里有动画效果，但不知道该怎么准确形容。”**
+一个聚焦动画参考的资源仓库，并附带可安装的 Codex Skill。它既能解决 **“我脑海里有动画效果，但不知道该怎么准确形容”**，也能检查现有项目，基于真实组件给出动画建议。
 
 ## 仓库内容
 
 - 精选 UI 动效、产品流程、CSS 动画和实验性网页动画网站。
 - 可安装的 Codex [`animation-reference`](skills/animation-reference/SKILL.md) Skill。
 - 实用的[动画术语表](skills/animation-reference/references/motion-vocabulary.md)，涵盖触发方式、动画名称、时间、物理感和无障碍要求。
+- [项目感知审阅指南](skills/animation-reference/references/project-review.md)，用于生成有代码和组件依据的动画建议。
 
 ## 精选网站
 
@@ -47,6 +48,14 @@ $animation-reference 我想让商品卡片展开成全屏详情页，但不知�
 
 也可以直接提供截图、GIF、录屏、原型或参考链接。Skill 会帮你找到可能的准确名称和相似案例，并整理出包含以下信息的动画规格：触发方式、状态变化、持续时间、缓动或弹簧参数、中断和退出行为、弱化动画方案，以及适合当前技术栈的实现方法。
 
+如果要审阅现有项目，但暂时不修改代码：
+
+```text
+$animation-reference 检查当前项目，基于现有组件提供动画建议。每项建议必须符合当前技术栈并指向具体源码，不要实现。
+```
+
+在项目感知模式中，Skill 会先检查框架、组件层级、交互状态、已有动画依赖、样式规范，并在条件允许时查看实际渲染效果；之后再输出与具体组件和文件绑定的优先级建议，同时给出全局动画 token、弱化动画方案，以及应该保持静态的设计。
+
 ## 仓库结构
 
 ```text
@@ -60,6 +69,7 @@ awesome-animations/
         ├── agents/openai.yaml
         └── references/
             ├── motion-vocabulary.md
+            ├── project-review.md
             └── websites.md
 ```
 

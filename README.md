@@ -2,13 +2,14 @@
 
 [简体中文](README.zh-CN.md)
 
-A focused collection of animation reference websites plus a Codex skill for turning “I can picture it, but I cannot describe it” into precise motion vocabulary and an implementation-ready specification.
+A focused collection of animation reference websites plus a Codex skill for turning “I can picture it, but I cannot describe it” into precise motion vocabulary—or inspecting an existing project and recommending animations for its actual components.
 
 ## What is included
 
 - A curated list of UI, product-flow, CSS, and experimental web-animation references.
 - The [`animation-reference`](skills/animation-reference/SKILL.md) Codex skill.
 - A practical [motion vocabulary](skills/animation-reference/references/motion-vocabulary.md) covering triggers, pattern names, timing, physics, and accessibility.
+- A [project-aware review guide](skills/animation-reference/references/project-review.md) for evidence-based, component-level animation recommendations.
 
 ## Curated websites
 
@@ -47,6 +48,14 @@ $animation-reference I want a product card to expand into a full-screen detail p
 
 You can also attach a screenshot, GIF, screen recording, prototype, or direct reference URL. The skill will identify likely names, find close references, and produce a motion spec containing trigger, state changes, timing, easing or spring behavior, interruption, exit, reduced-motion fallback, and implementation fit.
 
+To review an existing project without changing it:
+
+```text
+$animation-reference Inspect this project and recommend animations for its current components. Base every suggestion on the existing stack and source files. Do not implement.
+```
+
+In project-aware mode, the skill first inspects the framework, component hierarchy, interactive states, animation dependencies, styling conventions, and rendered behavior when available. It then returns prioritized recommendations tied to specific components and files, plus shared motion tokens, reduced-motion behavior, and ideas that should remain static.
+
 ## Repository structure
 
 ```text
@@ -60,6 +69,7 @@ awesome-animations/
         ├── agents/openai.yaml
         └── references/
             ├── motion-vocabulary.md
+            ├── project-review.md
             └── websites.md
 ```
 
