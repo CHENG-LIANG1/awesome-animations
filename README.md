@@ -18,6 +18,7 @@ A focused collection of animation reference websites plus a Codex skill for turn
 | [60fps](https://60fps.design/) | UI motion and micro-interactions | You can picture an app effect but do not know its name. |
 | [Motion Examples](https://motion.dev/examples) | Runnable React, JavaScript, and Vue patterns | You want a technically named example and a path to code. |
 | [Animista](https://animista.net/) | Customizable CSS animation presets | The effect is a lightweight entrance, exit, or attention animation. |
+| [1human](https://reels.1human.tech/) | Motion references with recipes, credits, and item-specific reuse rights | You want to compare a title reveal or loading-state rhythm in your existing renderer. |
 | [Mobbin](https://mobbin.com/) | Real mobile and web product flows | You need to see how shipped products handle an interaction. |
 | [Page Flows](https://pageflows.com/) | Recorded user journeys | Sequence and timing matter more than a single screen. |
 | [Codrops](https://tympanus.net/codrops/) | Creative demos and tutorials | You want typography, page transition, pointer, WebGL, or Three.js ideas. |

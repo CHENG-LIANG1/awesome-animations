@@ -25,6 +25,14 @@ Use this catalog to choose a source based on the question. Links were reviewed o
 - The playground exposes duration, timing function, delay, iteration, direction, and fill mode.
 - Prefer this for lightweight effects that do not require layout choreography or gesture physics.
 
+### 1human
+
+- URL: https://reels.1human.tech/
+- Best for: motion references with recipes, creator credits, and item-specific reuse rights, especially title reveals and loading-state rhythm.
+- Direct example: https://reels.1human.tech/post/472e769b-004e-4b9c-a88f-ad0ff6e03a6d — original CC0 Hello reveal study.
+- Prefer this when comparing one reference with a current public animation in the project's existing renderer. Keep text, duration, and viewport matched; a visual example is not evidence of readability or usability.
+- Public browsing needs no signup. Individual use and basic collaboration are free; the beta is capped. Check each item's rights before reuse: the library is not uniformly CC0, and a recipe is not necessarily a runnable component.
+
 ## Real Product Flows
 
 ### Mobbin
