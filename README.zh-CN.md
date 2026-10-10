@@ -18,6 +18,7 @@
 | [60fps](https://60fps.design/) | UI 动效和微交互 | 脑中有 App 动效，但不知道它叫什么。 |
 | [Motion Examples](https://motion.dev/examples) | 可运行的 React、JavaScript、Vue 动画 | 想知道准确技术名称，并准备进入代码实现。 |
 | [Animista](https://animista.net/) | 可调参数的 CSS 动画预设 | 需要轻量的进入、退出或强调动画。 |
+| [1human](https://reels.1human.tech/) | 带有制作方法、作者署名和逐项复用权限的动效参考 | 想在现有渲染流程中比较标题揭示或加载状态的节奏。 |
 | [Mobbin](https://mobbin.com/) | 真实移动端和网页产品流程 | 想研究已经上线的产品如何处理某个交互。 |
 | [Page Flows](https://pageflows.com/) | 真实用户流程录像 | 操作顺序和动画节奏比单张界面更重要。 |
 | [Codrops](https://tympanus.net/codrops/) | 创意 Demo 和教程 | 想找文字、页面转场、鼠标、WebGL 或 Three.js 动效。 |
